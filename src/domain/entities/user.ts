@@ -3,7 +3,7 @@ export class User {
   private readonly name: string;
   constructor(id: string, name: string) {
     if (!name) {
-      throw new Error("O nome é obrigatório");
+      throw new Error("O campo nome é obrigatório.");
     }
 
     if (!id) {
